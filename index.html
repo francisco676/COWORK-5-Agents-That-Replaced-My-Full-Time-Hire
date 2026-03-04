@@ -212,7 +212,6 @@
 <a href="https://calendar.app.google/SDA5TMRMbqbPQWEn7" target="_blank" id="float-cta">Book a Free Call</a>
 
 <script>
-  const LS_KEY = 'rallyup_lm_cowork';
   const gate    = document.getElementById('gate');
   const content = document.getElementById('content');
 
@@ -221,7 +220,7 @@
     setTimeout(() => { gate.style.display = 'none'; content.style.display = 'block'; }, 500);
   }
 
-  if (localStorage.getItem(LS_KEY)) { gate.style.display = 'none'; content.style.display = 'block'; }
+
 
   const form  = document.getElementById('gate-form');
   const btn   = document.getElementById('gate-btn');
