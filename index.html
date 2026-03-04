@@ -144,66 +144,140 @@
     <p class="subhead">Claude Cowork gave non-technical founders their own AI team for $20/month. Here's the exact setup — copy it in 20 minutes.</p>
     <div class="stats">
       <div class="stat"><span class="stat-num">5</span><span class="stat-label">agents deployed</span></div>
-      <div class="stat"><span class="stat-num">14</span><span class="stat-label">days to results</span></div>
+      <div class="stat"><span class="stat-num">$120k+</span><span class="stat-label">annual value replaced</span></div>
       <div class="stat"><span class="stat-num">$20</span><span class="stat-label">per month total cost</span></div>
       <div class="stat"><span class="stat-num">200k+</span><span class="stat-label">impressions in 7 days</span></div>
     </div>
+
     <div class="section">
-      <h2>The 5 Agents (and What They Handle)</h2>
-      <p class="intro">Each agent is a Cowork skill that runs inside the Claude desktop app. No code. No complex setup. Install the skill, describe your task, let it run.</p>
-      <div class="agents">
-        <div class="agent-card">
-          <div class="agent-header"><div class="agent-icon">📋</div><div><div class="agent-title">Agent 1: Meeting Prep</div><div class="agent-subtitle">Replaces: $40-60k/yr EA or Chief of Staff</div></div></div>
-          <div class="agent-details"><p>Before every sales call or investor meeting, this agent scans your Gmail, Slack, Notion, and calendar to build a 1-page brief.</p><div class="agent-result">Saves 45-60 minutes of research before every important call.</div></div>
-        </div>
-        <div class="agent-card">
-          <div class="agent-header"><div class="agent-icon">✏️</div><div><div class="agent-title">Agent 2: LinkedIn Content Engine</div><div class="agent-subtitle">Replaces: $3-5k/mo content agency</div></div></div>
-          <div class="agent-details"><p>Every week: finds 5 trending topics, writes 5 LinkedIn posts in your exact voice, creates 5 lead magnet files, uploads everything to Notion.</p><div class="agent-result">12+ LinkedIn post ideas generated in the first 14 days.</div></div>
-        </div>
-        <div class="agent-card">
-          <div class="agent-header"><div class="agent-icon">🧲</div><div><div class="agent-title">Agent 3: Lead Magnet Machine</div><div class="agent-subtitle">Replaces: $2-4k/mo freelance designer/copywriter</div></div></div>
-          <div class="agent-details"><p>Turns any LinkedIn post into a gated landing page, dark-branded, Beehiiv-connected, Vercel-ready. Every subscriber goes straight into your newsletter list.</p><div class="agent-result">Full HTML landing page generated and deployed in under 10 minutes.</div></div>
-        </div>
-        <div class="agent-card">
-          <div class="agent-header"><div class="agent-icon">📁</div><div><div class="agent-title">Agent 4: File and Machine Organizer</div><div class="agent-subtitle">Replaces: 2-3 hours of manual cleanup/week</div></div></div>
-          <div class="agent-details"><p>Sorts your Downloads folder, Desktop, and Screenshots using GTD principles. Weekly review takes 5 minutes instead of 45.</p><div class="agent-result">Desktop went from 140 files to 12 in the first run.</div></div>
-        </div>
-        <div class="agent-card">
-          <div class="agent-header"><div class="agent-icon">📊</div><div><div class="agent-title">Agent 5: Investor Update Writer</div><div class="agent-subtitle">Replaces: 3-4 hours of monthly writing</div></div></div>
-          <div class="agent-details"><p>Pulls metrics from Notion, Gmail, and Slack, then writes a complete monthly investor update in your voice. One prompt. Done.</p><div class="agent-result">Monthly update written and ready to send in under 8 minutes.</div></div>
-        </div>
-      </div>
-    </div>
-    <div class="section">
-      <h2>How to Set This Up in 20 Minutes</h2>
+      <h2>Before You Start: One-Time Setup (5 min)</h2>
+      <p class="intro">Every agent below runs inside Claude Desktop with Cowork mode enabled. Do this once and all 5 agents are ready to go.</p>
       <div class="steps">
-        <div class="step"><div class="step-num">1</div><div class="step-body"><h3>Download Claude Desktop and Enable Cowork Mode</h3><p>Go to claude.ai, download the desktop app, and enable Cowork mode from settings.</p></div></div>
-        <div class="step"><div class="step-num">2</div><div class="step-body"><h3>Install the Plugin Pack</h3><p>In Cowork settings, install the RallyUp plugin pack. All 5 agent skills drop into your sidebar in one click.</p></div></div>
-        <div class="step"><div class="step-num">3</div><div class="step-body"><h3>Connect Your Apps (5 min)</h3><p>Connect Gmail, Slack, Notion, and Google Calendar via MCP connectors. Each is a one-click OAuth.</p></div></div>
-        <div class="step"><div class="step-num">4</div><div class="step-body"><h3>Run Your First Agent</h3><p>Type "prep me for my meeting with [name]" or "run my weekly content" in the Cowork chat.</p></div></div>
-        <div class="step"><div class="step-num">5</div><div class="step-body"><h3>Book a 30-Min Setup Call (Optional)</h3><p>Book a free call and Alec will walk you through the full Cowork setup live.</p></div></div>
+        <div class="step"><div class="step-num">1</div><div class="step-body"><h3>Download Claude Desktop</h3><p>Go to <strong>claude.ai/download</strong>, install the desktop app, and sign in to your Anthropic account.</p></div></div>
+        <div class="step"><div class="step-num">2</div><div class="step-body"><h3>Enable Cowork Mode</h3><p>Open Claude Desktop, go to Settings, and toggle on <strong>Cowork (beta)</strong>. This unlocks computer use and multi-step agent runs.</p></div></div>
+        <div class="step"><div class="step-num">3</div><div class="step-body"><h3>Connect Your Apps</h3><p>In Cowork settings, connect <strong>Gmail, Slack, Notion, and Google Calendar</strong> via MCP connectors. Each is a one-click OAuth — takes about 2 minutes total.</p></div></div>
       </div>
     </div>
+
     <div class="section">
-      <h2>Copy-Paste Starter Prompts</h2>
-      <div class="agent-card" style="margin-bottom:12px;"><div class="agent-title" style="margin-bottom:8px;">Meeting Prep</div><div class="prompt-block">prep me for my meeting with [Name] at [Company] tomorrow at [Time]. pull everything — emails, slack, calendar, open action items.</div></div>
-      <div class="agent-card" style="margin-bottom:12px;"><div class="agent-title" style="margin-bottom:8px;">Weekly Content</div><div class="prompt-block">run my weekly linkedin content. find 5 trending topics, write 5 posts, create the lead magnets, and upload everything to notion.</div></div>
-      <div class="agent-card" style="margin-bottom:12px;"><div class="agent-title" style="margin-bottom:8px;">File Organizer</div><div class="prompt-block">run my weekly review. scan my desktop and downloads folder, sort everything into gtd buckets, and show me what you moved.</div></div>
-      <div class="agent-card"><div class="agent-title" style="margin-bottom:8px;">Investor Update</div><div class="prompt-block">write my monthly investor update for [Month]. pull my key metrics from notion, check my gmail for any investor threads, and write the full update in my voice.</div></div>
+      <h2>The 5 Agents: Exact Setup and Prompts</h2>
+      <p class="intro">Each agent is a saved instruction set inside Cowork. Create a new agent, paste the setup prompt, save it — then trigger it anytime with the starter prompt.</p>
+      <div class="agents">
+
+        <div class="agent-card">
+          <div class="agent-header"><div class="agent-icon">📥</div><div><div class="agent-title">Agent 1: Inbox Agent</div><div class="agent-subtitle">Replaces: $40-60k/yr EA or Chief of Staff — saved 4 hours last week alone</div></div></div>
+          <div class="agent-details">
+            <p>Triages your inbox, categorizes by priority, and drafts responses in your voice. Last week it processed 340+ emails and drafted 27 replies.</p>
+            <p><strong style="color:var(--text);">How to set it up:</strong> In Cowork, create a new agent called "Inbox Agent". Paste this as the system prompt:</p>
+            <div class="prompt-block">You are my executive assistant managing my Gmail inbox. When triggered:
+1. Scan all unread emails from the last 48 hours
+2. Categorize each as: Action Required / FYI Only / Can Delete
+3. For every "Action Required" email, draft a reply in my voice — direct, no fluff, professional
+4. Flag anything from investors, customers, or urgent vendors
+5. Output a summary: X emails triaged, X drafts ready, X flagged for my review
+
+My voice: direct, no corporate speak, get to the point fast.</div>
+            <p style="margin-top:12px;"><strong style="color:var(--text);">Starter prompt:</strong></p>
+            <div class="prompt-block">run my inbox triage for the last 48 hours. categorize everything, draft replies for action items, and show me the summary.</div>
+            <div class="agent-result" style="margin-top:12px;">340+ emails triaged, 27 responses drafted — 4 hours saved in one run.</div>
+          </div>
+        </div>
+
+        <div class="agent-card">
+          <div class="agent-header"><div class="agent-icon">🔍</div><div><div class="agent-title">Agent 2: Research Agent</div><div class="agent-subtitle">Replaces: $3-5k/mo research contractor — 12-page analysis in 22 minutes</div></div></div>
+          <div class="agent-details">
+            <p>Deep-dives on any company, competitor, or topic and returns a structured report you can actually use — not a wall of text.</p>
+            <p><strong style="color:var(--text);">How to set it up:</strong> Create a new agent called "Research Agent". Paste this as the system prompt:</p>
+            <div class="prompt-block">You are a senior research analyst. When given a research topic or company:
+1. Search the web for recent news, funding, product updates, and key people
+2. Pull any relevant context from my Notion and Gmail
+3. Structure your output as: Executive Summary / Key Findings / Competitive Landscape / Risks / Recommended Actions
+4. Be specific — cite sources, include numbers, avoid vague statements
+5. Deliver it as a clean document I can share with my team
+
+Target length: 8-15 pages depending on depth requested.</div>
+            <p style="margin-top:12px;"><strong style="color:var(--text);">Starter prompt:</strong></p>
+            <div class="prompt-block">research [Company / Topic] for me. i need a full competitive analysis — recent news, product, team, funding, and where we can win against them.</div>
+            <div class="agent-result" style="margin-top:12px;">12-page competitor analysis delivered in 22 minutes.</div>
+          </div>
+        </div>
+
+        <div class="agent-card">
+          <div class="agent-header"><div class="agent-icon">✏️</div><div><div class="agent-title">Agent 3: Content Agent</div><div class="agent-subtitle">Replaces: $3-5k/mo content agency — 5 posts, 2 newsletters, 2 landing pages per week</div></div></div>
+          <div class="agent-details">
+            <p>Plans and writes your LinkedIn posts, newsletter drafts, and lead magnet landing pages — all in your exact voice, every week.</p>
+            <p><strong style="color:var(--text);">How to set it up:</strong> Create a new agent called "Content Agent". Paste this as the system prompt:</p>
+            <div class="prompt-block">You are my content strategist and writer. My audience is B2B founders and operators. My voice is direct, slightly contrarian, no buzzwords, data-backed.
+
+When triggered for weekly content:
+1. Find 5 trending topics in my space (AI, ops, founder productivity)
+2. Write 5 LinkedIn posts — hook in line 1, no fluff, end with a question or CTA
+3. Write 2 newsletter draft sections based on what happened in my week (pull from Gmail/Slack if needed)
+4. Create 2 lead magnet concepts with headline, bullet points, and a 3-section outline
+5. Upload all drafts to Notion under "Content Queue"
+
+Do not use phrases like "game-changer", "revolutionary", or "unlock your potential".</div>
+            <p style="margin-top:12px;"><strong style="color:var(--text);">Starter prompt:</strong></p>
+            <div class="prompt-block">run my weekly content. find 5 trending topics, write 5 linkedin posts, draft 2 newsletter sections, and create 2 lead magnet outlines. upload everything to notion.</div>
+            <div class="agent-result" style="margin-top:12px;">5 posts, 2 newsletter drafts, 2 landing pages — one weekly run.</div>
+          </div>
+        </div>
+
+        <div class="agent-card">
+          <div class="agent-header"><div class="agent-icon">⚙️</div><div><div class="agent-title">Agent 4: Ops Agent</div><div class="agent-subtitle">Replaces: 2-3 hours of manual ops work/week — caught $2,100 in duplicate charges</div></div></div>
+          <div class="agent-details">
+            <p>Reconciles expenses, flags anomalies, reviews vendor charges, and keeps your financial hygiene clean without you touching a spreadsheet.</p>
+            <p><strong style="color:var(--text);">How to set it up:</strong> Create a new agent called "Ops Agent". Paste this as the system prompt:</p>
+            <div class="prompt-block">You are my operations and finance assistant. When triggered for weekly ops review:
+1. Scan my email and Notion for any new invoices, receipts, or vendor charges
+2. Compare against last week — flag any duplicates, unexpected increases, or new charges
+3. Categorize all expenses by type (SaaS, contractors, ads, travel, misc)
+4. Flag anything over $500 that wasn't in last month's budget
+5. Output a clean weekly ops summary with: total spend, flagged items, recommended actions
+
+Be precise. If you're unsure about something, flag it rather than guess.</div>
+            <p style="margin-top:12px;"><strong style="color:var(--text);">Starter prompt:</strong></p>
+            <div class="prompt-block">run my weekly ops review. reconcile this week's expenses, flag any duplicates or anomalies, and give me a clean summary with recommended actions.</div>
+            <div class="agent-result" style="margin-top:12px;">Flagged 3 duplicate vendor charges worth $2,100 in the first run.</div>
+          </div>
+        </div>
+
+        <div class="agent-card">
+          <div class="agent-header"><div class="agent-icon">🎯</div><div><div class="agent-title">Agent 5: Sales Agent</div><div class="agent-subtitle">Replaces: $50-80k/yr SDR or sales coordinator — scored 89 leads and drafted follow-ups</div></div></div>
+          <div class="agent-details">
+            <p>Scores inbound leads by fit, pulls context from your CRM and email history, and drafts personalized follow-up messages for every qualified lead.</p>
+            <p><strong style="color:var(--text);">How to set it up:</strong> Create a new agent called "Sales Agent". Paste this as the system prompt:</p>
+            <div class="prompt-block">You are my sales development assistant. When triggered:
+1. Pull all new inbound leads from the last 7 days (from Gmail, form submissions, or Notion CRM)
+2. Score each lead 1-10 based on: company size, job title, stated problem, budget signals
+3. For every lead scored 7+, pull any existing email history or Notion context
+4. Draft a personalized follow-up for each — reference their specific situation, no templates
+5. Output: lead list with scores, top 10 prioritized, drafted messages ready to send
+
+My ICP: B2B SaaS founders, 10-200 employees, raising or recently raised, need GTM help.</div>
+            <p style="margin-top:12px;"><strong style="color:var(--text);">Starter prompt:</strong></p>
+            <div class="prompt-block">run my weekly sales review. score all new inbound leads, prioritize the top 10, and draft personalized follow-ups for everyone over a 7.</div>
+            <div class="agent-result" style="margin-top:12px;">89 leads scored, personalized follow-ups drafted — zero manual work.</div>
+          </div>
+        </div>
+
+      </div>
     </div>
+
     <div class="section">
       <h2>The Math That Made Me Cancel the Hire</h2>
       <div class="roi-grid">
         <div class="roi-card"><div class="label">EA / Chief of Staff (part-time)</div><div class="val red">$40-60k/yr</div></div>
-        <div class="roi-card"><div class="label">Content Agency (basic)</div><div class="val red">$36-60k/yr</div></div>
-        <div class="roi-card"><div class="label">Freelance Copywriter</div><div class="val red">$24-48k/yr</div></div>
+        <div class="roi-card"><div class="label">Research Contractor</div><div class="val red">$36-60k/yr</div></div>
+        <div class="roi-card"><div class="label">Content Agency + SDR</div><div class="val red">$60-80k/yr</div></div>
         <div class="roi-card"><div class="label">All 5 Agents Combined</div><div class="val green">$240/yr</div></div>
       </div>
     </div>
+
     <div class="cta-section">
-      <h2>Want Alec to Set This Up With You?</h2>
-      <p>Book a free 30-minute call and he'll walk you through the full Cowork setup, live, on your machine, with your real data.</p>
-      <a href="https://calendar.app.google/SDA5TMRMbqbPQWEn7" target="_blank" class="cta-btn">Book a Free Setup Call</a>
+      <h2>Want This Running on Your Business?</h2>
+      <p>RallyUp helps B2B founders build and deploy their AI agent stack — so your whole team is posting on LinkedIn, following up with leads, and running ops automatically. Book a free call with Alec to see exactly how it works for your company.</p>
+      <a href="https://calendar.app.google/SDA5TMRMbqbPQWEn7" target="_blank" class="cta-btn">Book a Free Call with Alec</a>
     </div>
   </main>
   <footer><p>Built by <a href="https://rallyup.team" target="_blank">RallyUp</a></p></footer>
